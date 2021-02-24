@@ -83,6 +83,7 @@ add_feed_dog_task = add_task(tasks, "Feed Dog", False, 5)
 # ### Further Extensions
 
 # 8. Use a while loop to display the following menu and allow the use to enter an option.
+# 9. Call the appropriate function depending on the users choice.
 
 def display_menu(task_list):
     user_input = None
@@ -120,4 +121,3 @@ def display_menu(task_list):
 
 display_menu(tasks)
 
-# 9. Call the appropriate function depending on the users choice.
